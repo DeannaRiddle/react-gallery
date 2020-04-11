@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import PicItem from "../PicItem/PicItem";
+import "/PicList.css;";
 
 class PicList extends Component {
   render() {

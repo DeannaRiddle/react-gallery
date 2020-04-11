@@ -1,0 +1,7 @@
+.picItem-pic {
+  width: 75px;
+  height: 75x;
+  display: -moz-inline-grid;
+  border: 1px grey;
+  margin: 10px;
+}
