@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-//import "./PicItem.css;";
+import "./PicItem.css";
 
 class PicItem extends Component {
   render() {
@@ -16,7 +16,7 @@ class PicItem extends Component {
     console.log(this.props.item);
     return (
       <div className="PicItem-pic">
-        <img src={this.props.item.path} />
+        <img src={this.props.item.map} />
         {/*{buttonElement} */}
       </div>
     );
