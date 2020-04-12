@@ -36,10 +36,10 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">Gallery of my life</h1>
+          <h1 className="App-title">Gallery of My Life</h1>
         </header>
         <br />
-        <p>My Life Gallery</p>
+        <p>Welcome!</p>
         <PicList picList={this.state.picList} />
       </div>
     );

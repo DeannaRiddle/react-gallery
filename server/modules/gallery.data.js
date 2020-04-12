@@ -19,14 +19,19 @@ const galleryItems = [
   },
   {
     id: 4,
-    path: "NickWedd.jpeg",
+    path: "images/NickWedd.jpeg",
     description: "Group of my close friends & boyfriend at a friends Wedding.",
     likes: 0,
   },
-  { id: 5, path: "Parents.jpeg", description: "My amazing parents!", likes: 0 },
+  {
+    id: 5,
+    path: "images/Parents.jpeg",
+    description: "My amazing parents!",
+    likes: 0,
+  },
   {
     id: 6,
-    path: "RedRockNV.jpeg",
+    path: "images/RedRockNV.jpeg",
     description: "One of my favorite pictures I took at Red Rocks park in NV.",
     likes: 0,
   },

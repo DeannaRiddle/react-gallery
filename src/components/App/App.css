@@ -1,12 +1,13 @@
 .App {
   text-align: center;
+  font-family: cursive;
 }
 
 .App-header {
   background-color: #222;
   height: 70px;
   padding: 20px;
-  color: white;
+  color: skyblue;
 }
 
 .App-title {
@@ -14,10 +15,19 @@
 }
 
 .App-intro {
-  font-size: large;
+  font-size: x-large;
 }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.image-grid {
+  display: grid;
+  grid-gap: 10px;
 }

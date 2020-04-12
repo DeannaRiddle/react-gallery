@@ -1,6 +1,6 @@
-.picItem-pic {
-  width: 75px;
-  height: 75x;
+.img {
+  width: 200px;
+  height: 200x;
   display: -moz-inline-grid;
   border: 1px grey;
   margin: 10px;
