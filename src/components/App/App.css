@@ -11,11 +11,17 @@
 }
 
 .App-title {
-  font-size: 1.5em;
+  font-size: 2.5em;
 }
 
 .App-intro {
   font-size: x-large;
+}
+
+.App-picList {
+  display: -moz-grid-group;
+  display: inline;
+  display: grid;
 }
 
 @keyframes App-logo-spin {
@@ -25,9 +31,4 @@
   to {
     transform: rotate(360deg);
   }
-}
-
-.image-grid {
-  display: grid;
-  grid-gap: 10px;
 }

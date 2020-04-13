@@ -25,7 +25,7 @@ class App extends Component {
   updatePic = (id) => (event) => {
     console.log(id);
     axios
-      .put(`/gallery/complete/${id}`)
+      .put(`/gallery/Love/${id}`)
       .then((response) => {
         this.getPic();
       })
@@ -40,7 +40,9 @@ class App extends Component {
         </header>
         <br />
         <p>Welcome!</p>
-        <PicList picList={this.state.picList} />
+        <form className="App-picList">
+          <PicList picList={this.state.picList} />
+        </form>
       </div>
     );
   }
