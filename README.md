@@ -1,9 +1,15 @@
-# Project Name
+# My Life Gallery
 
-[Project Instructions](./INSTRUCTIONS.md), this line may be removed once you have updated the README.md
+You can click on pictures from my life and show me which ones you love the most.
 
 ## Description
 
-Your project description goes here. What problem did you solve? How did you solve it?
+Within this project we were supposed to display pictures from our life and a description of each. There is a button that users click when they love the displayed picture.
 
-Additional README details can be found [here](https://github.com/PrimeAcademy/readme-template/blob/master/README.md).
+## Tools
+
+- React
+- HTML
+- CSS
+- Axios
+- Postman
