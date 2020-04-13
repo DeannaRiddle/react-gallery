@@ -6,7 +6,7 @@ import PicList from "../PicList/PicList";
 
 class App extends Component {
   state = {
-    picList: [],
+    picArray: [],
   };
   componentDidMount() {
     this.getPic();
@@ -20,20 +20,24 @@ class App extends Component {
           picList: response.data,
         });
       })
-      .catch((err) => console.warn(err));
-  }
-  updatePic = (id) => (event) => {
-    console.log(id);
+      .catch((err => console.warn(err))
+  
+}
+}
+  likePic = (id) => (event) => {
     axios
-      .put(`/gallery/Love/${id}`)
-      .then((response) => {
-        this.getPic();
-      })
-      .catch((err) => console.warn(err));
-  };
+    .put(`/gallery/like/${id}`)
+    .then((response) => {
+      this.getPic();
+     
+    });
+  )
+  .catch((err) => console.warn(err));
+  }
 
   render() {
     return (
+
       <div className="App">
         <header className="App-header">
           <h1 className="App-title">Gallery of My Life</h1>
@@ -41,7 +45,7 @@ class App extends Component {
         <br />
         <p>Welcome!</p>
         <form className="App-picList">
-          <PicList picList={this.state.picList} />
+          <PicList picList={this.state.picList} likepic={this.lovePic/>
         </form>
       </div>
     );
